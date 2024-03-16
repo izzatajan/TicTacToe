@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#headBox{
+    display: flex;
+    align-items: baseline;
+    margin-top: 30px;
+}
+#inpbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#inpbtn input{
+    width: 300px;
+    margin: 0 30px;
+    font-size: 40px;
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Sriracha', cursive;
+    background-color: transparent 0.6;
+}
+#inpbtn input::placeholder{
+    font-size: 30px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Sriracha', cursive;
+}
+#score{
+    color: #fff;
+    font-size: 40px;
+}
+
+#inpbtn button{
+    width: 100px;
+    height: 40px;
+    font-size: 23px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: lightgreen;
+    transition: width .15s;
+}

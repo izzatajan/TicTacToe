@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(63, 63, 63);
+    margin: 0;
+    padding: 0;
+    font-family: 'Sriracha', cursive;
+}
+
+#player1{
+    text-align: right;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-width: 935px;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+
+#disBtn, #refreshBtn{
+    font-size: 23px;
+    width:100px;
+    background-color: #ff9900;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    transition: width .1s;
+}
+#disBtn:hover, #refreshBtn:hover{
+    width: 110px;
+}
+
+.squares{
+    width: 180px;
+    height: 180px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.squares{
+    cursor: pointer;
+    text-align: center;
+    font-size: 90px;
+    color: #fff;
+}
+
+.userTurn{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+
+  /*squares linenes*/
+.square1, .square4, .square7, .square2, .square5, .square8{
+    border-right: 2px solid #ff9900;
+}
+.square1, .square2, .square3, .square4, .square5, .square6{
+    border-bottom: 2px solid #ff9900;
+}
+
+
+/*for x 0 animatyion*/
+
+.x0animation1{
+    font-size: 170px;
+    transition: font-size .2s;
+    color: #ff9900;
+}
+.x0animation2{
+    font-size: 120px;
+    transition: font-size .2s;
+}
